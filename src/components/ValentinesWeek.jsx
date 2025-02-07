@@ -25,7 +25,7 @@ const ValentinesWeek = () => {
     const eventDate = new Date(day.date);
     const currentDate = new Date(today);
 
-    if (currentDate >= eventDate) {
+    if (currentDate >= eventDate || true) { //change
       setSelectedDay(day);
       if (audio) audio.pause(); // Stop previous audio
       const newAudio = new Audio(day.music);
@@ -52,7 +52,7 @@ const ValentinesWeek = () => {
             {valentinesDays.map((day) => {
               const eventDate = new Date(day.date);
               const currentDate = new Date(today);
-              const isUnlocked = currentDate >= eventDate;
+              const isUnlocked = currentDate >= eventDate || true ; //change
 
               return (
                 <div 
