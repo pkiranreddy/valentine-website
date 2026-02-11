@@ -6,17 +6,21 @@ html, body {
   font-family: "Arial", sans-serif;
   text-align: center;
   background: #ffdde1;
-  color: #d63384;
+  /* color: #d63384; */
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   overflow-x: hidden;
+  background-image: url("/backgroundImage.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /* 🎀 Smooth Scrolling with Centered Content */
 .scroll-container {
-  width: 100%;
+  width: 100vh !important;
   height: 100vh;
   overflow-y: auto;
   display: flex;
@@ -172,10 +176,6 @@ html, body {
     padding: 15px;
     overflow: scroll;
   }
-
-  .book-page img {
-    width: 100%;
-  }
 }
 
 /* 🎈 Floating Hearts */
@@ -183,7 +183,7 @@ html, body {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100% !important;
   height: 100%;
   pointer-events: none;
 }
@@ -215,7 +215,11 @@ html, body {
 /* ❤️ Valentine Question Styling */
 .valentine-question h1 {
   font-size: 2.5rem;
-  color: #d63384;
+  color: #ffffff;
+  text-shadow: 
+  0 0 8px rgba(255, 105, 180, 0.8),
+  0 0 18px rgba(255, 20, 147, 0.6),
+  0 2px 6px rgba(0, 0, 0, 0.7);
 }
 
 /* 💬 Buttons Container */
@@ -258,4 +262,9 @@ button {
 
 .no-button:hover {
   background-color: #ffb6c1;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
 }
