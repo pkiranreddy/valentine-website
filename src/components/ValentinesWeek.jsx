@@ -39,7 +39,6 @@ const ValentinesWeek = () => {
       <div className="valentine-content">
         {selectedDay ? (
           <div className="book-page">
-              {/* Show Video if available */}
               <h3>💖 {selectedDay?.name} 💖</h3>
               {selectedDay.video ? (
                 <video

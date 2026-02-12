@@ -171,6 +171,7 @@ html, body {
 
   .cards {
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* Smaller width for mobile */
+    margin-top: 2rem;
   }
 
   .card {
@@ -190,6 +191,7 @@ html, body {
     padding: 15px;
     overflow: scroll;
     height: 90vh;
+    margin-top: 2rem;
   }
 }
 
