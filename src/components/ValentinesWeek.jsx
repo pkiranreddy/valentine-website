@@ -37,7 +37,7 @@ const ValentinesWeek = () => {
   return (
     <div className="scroll-container">
       <div className="valentine-content">
-        <h2>💖 {selectedDay?.name || "Valentine's Week"} 💖</h2>
+        <h3>💖 {selectedDay?.name || "Valentine's Week"} 💖</h3>
         {selectedDay ? (
           <div className="book-page">
               {/* Show Video if available */}

@@ -47,7 +47,7 @@ function App() {
       {!isValentine ? (
         <div className="valentine-question">
           <h1>Hi Lolitha Parlapalli,</h1>
-          <h1>Will you be my Valentine? 💖</h1>
+          <p>Will you be my Valentine? 💖</p>
           <div className="buttons">
             <button
               className="yes-button"
