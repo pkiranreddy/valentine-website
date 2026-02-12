@@ -43,7 +43,17 @@ const ValentinesWeek = () => {
         {selectedDay ? (
           <div className="book-page">
             <h2>{selectedDay.name}</h2>
-            <img src={selectedDay.image} alt={selectedDay.name} className="gif" />
+              {/* Show Video if available */}
+              {selectedDay.video ? (
+                <video
+                  src={selectedDay.video}
+                  controls
+                  autoPlay
+                  className="video-player"
+                />
+              ) : (
+                <img src={selectedDay.image} alt={selectedDay.name} className="gif" />
+              )}
             <p>{selectedDay.message}</p>
             <button className="back-button" onClick={() => setSelectedDay(null)}>Back</button>
           </div>
