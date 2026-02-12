@@ -29,6 +29,7 @@ html, body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 1rem;
 
   background: url("/bg2.png");
   background-size: cover;
@@ -54,7 +55,6 @@ html, body {
 .valentine-content {
   width: 95%;
   max-width: 500px;
-  padding: 20px;
   text-align: center;
   align-self: center;
   display: flex;
@@ -167,7 +167,6 @@ html, body {
 
   .valentine-content {
     width: 95%;
-    height: 100vh;
   }
 
   .cards {
@@ -175,8 +174,6 @@ html, body {
   }
 
   .card {
-    /* max-width: 150px; */
-    /* width: 100%; */
     padding: 12px;
   }
 
@@ -192,6 +189,7 @@ html, body {
     width: 70%;
     padding: 15px;
     overflow: scroll;
+    height: 100vh;
   }
 }
 
@@ -233,10 +231,6 @@ html, body {
 .valentine-question h1, .valentine-question p {
   font-size: 2.5rem;
   color: #ffffff;
-  /* text-shadow: 
-  0 0 8px rgba(255, 105, 180, 0.8),
-  0 0 18px rgba(255, 20, 147, 0.6),
-  0 2px 6px rgba(0, 0, 0, 0.7); */
   margin-bottom: .5rem;
   margin-top: .5rem;
 }
