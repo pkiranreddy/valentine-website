@@ -166,7 +166,8 @@ html, body {
 @media (max-width: 600px) {
 
   .valentine-content {
-    width: 100%;
+    width: 95%;
+    height: 100vh;
   }
 
   .cards {
@@ -188,7 +189,7 @@ html, body {
   }
 
   .book-page {
-    width: 75%;
+    width: 70%;
     padding: 15px;
     overflow: scroll;
   }
