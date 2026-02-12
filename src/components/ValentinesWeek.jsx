@@ -47,6 +47,8 @@ const ValentinesWeek = () => {
                   controls
                   autoPlay
                   loop
+                  playsInline
+                  webkit-playsinline="true"
                   className="video-player"
                 />
               ) : (
