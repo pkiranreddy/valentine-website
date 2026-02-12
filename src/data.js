@@ -5,8 +5,7 @@ export const valentinesDays = [
       name: "Rose Day", 
       date: "2025-02-07", 
       message: "🌹 A rose for my puchu Polo! 🌹",
-      image: "/gifs/rose.gif",
-      music: "/music/rose.mp3",
+      video: "/videos/rose.mp4",
       emoji: "🌹"
     },
     { 
@@ -21,18 +20,16 @@ export const valentinesDays = [
       id: 3, 
       name: "Chocolate Day", 
       date: "2025-02-09", 
-      message: "🍫 Sweet chocolates for my mitti mitti shona!", 
-      image: "/gifs/chocolate.gif",
-      music: "/music/chocolate.mp3",
+      message: "🍫 Sweet chocolates for my mitti mitti shona!",
+      video: "/videos/chocolate.mp4",
       emoji: "🍫"
     },
     { 
       id: 4, 
       name: "Teddy Day", 
       date: "2025-02-10", 
-      message: "🧸 A teddy to cuddle and remind you of me.. he he!", 
-      image: "/gifs/teddy.gif",
-      music: "/music/teddy.mp3",
+      message: "🧸 A teddy to cuddle and remind you of me.. he he!",
+      video: "/videos/teddy.mp4",
       emoji: "🧸"
     },
     { 
@@ -65,8 +62,7 @@ export const valentinesDays = [
       name: "Valentine's Day", 
       date: "2025-02-14", 
       message: "❤️ Happy Valentine's Day, amar shona Polo! ❤️", 
-      image: "/gifs/valentine.gif",
-      music: "/music/valentine.mp3",
+      video: "/videos/valentine.mp4",
       emoji: "❤️"
     }
   ];

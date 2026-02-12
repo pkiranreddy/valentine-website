@@ -37,18 +37,16 @@ const ValentinesWeek = () => {
   return (
     <div className="scroll-container">
       <div className="valentine-content">
-        <h2>💖 Valentine's Week 💖</h2>
-        <p>Every day a new surprise unlocks! 🌟</p>
-
+        <h2>💖 {selectedDay?.name || "Valentine's Week"} 💖</h2>
         {selectedDay ? (
           <div className="book-page">
-            <h2>{selectedDay.name}</h2>
               {/* Show Video if available */}
               {selectedDay.video ? (
                 <video
                   src={selectedDay.video}
                   controls
                   autoPlay
+                  loop
                   className="video-player"
                 />
               ) : (
