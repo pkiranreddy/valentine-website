@@ -37,10 +37,10 @@ const ValentinesWeek = () => {
   return (
     <div className="scroll-container">
       <div className="valentine-content">
-        <h3>💖 {selectedDay?.name || "Valentine's Week"} 💖</h3>
         {selectedDay ? (
           <div className="book-page">
               {/* Show Video if available */}
+              <h3>💖 {selectedDay?.name} 💖</h3>
               {selectedDay.video ? (
                 <video
                   src={selectedDay.video}
@@ -59,6 +59,7 @@ const ValentinesWeek = () => {
           </div>
         ) : (
           <div className="cards">
+            <h3>💖 {"Valentine's Week"} 💖</h3>
             {valentinesDays.map((day) => {
               const eventDate = new Date(day.date);
               const currentDate = new Date(today);
